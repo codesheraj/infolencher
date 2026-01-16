@@ -7,7 +7,7 @@
 body{
     max-width: 1440px;
     margin: 0 auto;
-    border: 2px solid;
+    
 }
 :root{
     --primary-color: #3A3A3A;
