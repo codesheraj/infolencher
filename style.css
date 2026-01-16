@@ -247,4 +247,99 @@ margin-bottom: 16px;
     margin: 0 auto;
     text-align: center;
     padding: 50px 0;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
  }
+
+ @media screen and (max-width:576px) {
+    .nav-container{
+        flex-direction: column;
+        margin: 0;
+    }
+    body{ width: 98%;}
+
+    nav {
+   justify-content:space-around ;
+   align-items: center;
+   margin: 0px 0px ;
+   max-width: 100%;
+   background-color: #f5e9e9;
+   margin: 0 auto;
+  
+    }
+.nav-ul {
+    width: 90%;
+    gap: 10px;
+    margin: 0 auto;
+   justify-self: center;
+   text-align: center;
+   justify-content: center;
+   margin-bottom: 5px;
+ 
+    
+
+}
+.banner {
+    margin-top: 30px;
+    flex-direction: column-reverse;
+    gap: 0px;
+}
+.banner-text{ text-align: center;
+    font-size: 0.;
+    margin: 0 10px;
+}
+ .banner .banner-title {
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+    color: #E02C6D;
+}
+.banner-text p {
+    font-size: 15px;
+}
+.banner-image{margin-left: 10px;
+    padding-bottom: 10px;
+    
+    max-width: 200px;}
+    .company-container {
+   max-width: 1110px ;
+   margin: 0 auto;
+   /* background-color: aquamarine; */
+   display: flex;
+  justify-content: center;
+   align-items: center;
+   margin-top: 0px;
+   padding: 5px 5px;
+   gap: 8px;
+   
+}
+.company-container img{
+    width: 40px;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   max-width: 1047px;
+   margin: 0 auto;
+   justify-content: center;
+   gap: 10px;
+   margin: 0 10px;
+}
+.featured-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    gap: 0px;
+    margin-bottom: 100px;}
+
+    .featured-container img {
+       width: 100%;
+    }
+
+    .see-more-container {
+    display: flex;
+    justify-content: right;
+    max-width: 1047px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 50px;}}
+   
